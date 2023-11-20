@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>GoodSaloon - Contact us</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">
+            <img src="./images/logo.png" alt="">
+        </a>
+        <div class="menu">
+          <ul>
+            <ul class="grid">
+              <li><a class="title" href="./index.html">Home</a></li>
+              <li><a class="title" href="./index.html#about">About us</a></li>
+              <li><a class="title" href="./index.html#services">services</a></li>
+              <li><a class="title" href="./index.html#testimonials">Testimonials</a></li>
+              <li><a class="title" href="#">Contact</a></li>
+            </ul>
+          </ul>
+        </div>
+
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <div class="container">
+        <form action="#" method="post" id="contact-form">
+            <h2>Contact Form</h2>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
