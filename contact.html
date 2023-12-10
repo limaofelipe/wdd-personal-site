@@ -41,22 +41,66 @@
       </nav>
     </header>
 
-    <div class="container">
-        <form action="#" method="post" id="contact-form">
-            <h2>Contact Form</h2>
-
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-
-            <button type="submit">Submit</button>
-        </form>
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    
+    .container-form {
+        width: 300px;
+        padding: 16px;
+        background-color: #F4A79F;
+        margin: 0 auto;
+        margin-top: 10rem;
+        border: 1px solid #F4A79F;
+        border-radius: 5px;
+    }
+    
+    input[type=text], input[type=email], textarea {
+        width: 100%;
+        padding: 12px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+    
+    button {
+        background-color: #F4A79F;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+    
+    button:hover {
+        opacity: 0.8;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="container-form">
+      <label for="fname"><b>Nome</b></label>
+      <input type="text" placeholder="Digite seu nome" name="fname" required>
+    
+      <label for="email"><b>Email</b></label>
+      <input type="email" placeholder="Digite seu email" name="email" required>
+    
+      <label for="message"><b>Mensagem</b></label>
+      <textarea placeholder="Digite sua mensagem" name="message" required></textarea>
+    
+      <button type="submit">Enviar</button>
     </div>
+    
+    </body>
+    </html>
+    
 
 </body>
 </html>
